@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    background-color: rgb(217, 255, 0);
+    font-family: 'Open Sans', sans-serif;        }
+
+.imagem {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.div01 {
+    background-image: url('img/imagem1.jpg');
+    text-align: center;
+}
+
+.div01 span {
+    background-color: rgb(0, 0, 0);
+    color: chartreuse;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 10px;            
+    position: relative;
+    top: 50%;
+}
+
+.div02, .div03 {
+    background-color: white;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.div02 p, .div03 p {
+    margin-top: 50px;
+}
+
+.div04 {
+    background-image: url('img/imagem4.jpg');
+}
+
+.div05 {
+    background-image: url('img/imagem5.jpg');
+}
